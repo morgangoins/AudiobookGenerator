@@ -1,0 +1,19 @@
+[project]
+name = "audiobook-generator"
+version = "0.1.0"
+description = "A GUI application to convert EPUB files to audiobooks using TTS"
+requires-python = ">=3.8"
+dependencies = [
+    "PyQt5",
+    "ebooklib",
+    "beautifulsoup4",
+    "torchaudio",
+    "torch",
+    "pydub",
+    "nltk",
+    "TTS",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build" 
